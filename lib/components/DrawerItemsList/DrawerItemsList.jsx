@@ -2,8 +2,8 @@ import map from 'lodash/map';
 import omit from 'lodash/omit';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List from 'material-ui/List';
+import { withStyles } from '@material-ui/core/styles';
+import List from '@material-ui/core/List';
 
 import styles from './styles';
 import DrawerItemsListItem from '../DrawerItemsListItem';

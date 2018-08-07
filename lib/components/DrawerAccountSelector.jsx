@@ -1,12 +1,10 @@
 import React from 'react';
-import MUAvatar from 'material-ui/Avatar';
-import { withStyles } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import ArrowDropDownIcon from 'material-ui-icons/ArrowDropDown';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Grid from 'material-ui/Grid';
+import MUAvatar from '@material-ui/core/Avatar';
+import { withStyles } from '@material-ui/core/styles';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import List, { ListItem, ListItemText } from '@material-ui/core/List';
+import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
-import { GridList } from 'material-ui';
 import head from 'lodash/head';
 import map from 'lodash/map';
 

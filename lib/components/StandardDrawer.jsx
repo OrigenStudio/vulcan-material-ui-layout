@@ -1,6 +1,6 @@
-import Typography from 'material-ui/Typography';
-import { withStyles } from 'material-ui/styles';
-import withWidth, { isWidthDown } from 'material-ui/utils/withWidth';
+import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@material-ui/core/styles';
+import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import { Components } from 'meteor/vulcan:core';
 import React from 'react';
 import compose from 'recompose/compose';

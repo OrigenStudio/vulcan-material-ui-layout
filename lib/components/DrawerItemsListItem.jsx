@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import Icon from 'material-ui/Icon';
+import { ListItem, ListItemIcon, ListItemText } from '@material-ui/core/List';
+import Icon from '@material-ui/core/Icon';
 
 export default class DrawerItemsListItem extends React.PureComponent {
   static propTypes = {
