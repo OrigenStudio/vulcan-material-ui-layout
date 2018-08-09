@@ -47,15 +47,14 @@ export default class Layout extends PureComponent {
   }
 
   render() {
-    const { children, classes } = this.props;
-    // TODO make the usingTwoRowAppBar be modified by props
+    const { children, classes, ...other } = this.props;
     return (
       <MaterialUILayout
         overrideClasses={classes}
         {...this.appBarProps()}
         {...this.leftDrawerProps()}
         {...this.rightDrawerProps()}
-        usingTwoRowAppBar
+        {...other}
       >
         {children}
       </MaterialUILayout>
